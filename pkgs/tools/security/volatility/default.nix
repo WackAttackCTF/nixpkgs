@@ -1,7 +1,7 @@
 { stdenv, fetchurl, pythonPackages }:
 
 pythonPackages.buildPythonApplication rec {
-  version = "2.6";
+  version = "2.6.1";
   pname = "volatility";
 
   src = fetchurl {
